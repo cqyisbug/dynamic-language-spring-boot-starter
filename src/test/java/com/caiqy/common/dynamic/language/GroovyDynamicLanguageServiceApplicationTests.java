@@ -33,7 +33,7 @@ class GroovyDynamicLanguageServiceApplicationTests {
     @Test
     void contextLoads() {
         if (userService != null) {
-            System.out.println(userService.hello());
+            System.out.println(userService.hello("dynamic language"));
         }
     }
 

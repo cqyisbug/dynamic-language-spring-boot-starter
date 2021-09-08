@@ -23,9 +23,9 @@ import com.caiqy.common.dynamic.language.annotation.GroovyDynamicLanguageService
  *
  * @author caiqy
  */
-@GroovyDynamicLanguageService(id = "userService", scriptSource = "http://192.168.50.143:8000/test2.groovy", refreshCheckDelay = 50)
+@GroovyDynamicLanguageService(id = "userService", scriptSource = "http://192.168.3.29:8000/UserServiceImpl.groovy", refreshCheckDelay = 50)
 public interface UserService {
 
-    String hello();
+    String hello(String name);
 
 }
