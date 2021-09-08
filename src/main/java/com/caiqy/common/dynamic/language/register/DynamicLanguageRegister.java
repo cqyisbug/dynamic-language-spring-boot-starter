@@ -59,7 +59,7 @@ public class DynamicLanguageRegister implements ImportBeanDefinitionRegistrar, E
      * registered in the {@link BeanDefinitionRegistry}.
      */
     private static final String SCRIPT_FACTORY_POST_PROCESSOR_BEAN_NAME =
-            "com.caiqy.common.dynamic.language.support.SalusScriptFactoryPostProcessor";
+            "com.caiqy.common.dynamic.language.support.CqyScriptFactoryPostProcessor";
 
     private static final String GROOVY_SCRIPT_FACTORY_CLASS_NAME =
             "org.springframework.scripting.groovy.GroovyScriptFactory";
