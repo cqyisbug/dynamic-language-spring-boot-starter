@@ -1,5 +1,5 @@
 /*
- * Copyright [2021] [caiqy]
+ * Copyright 2021 caiqy
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -35,8 +35,8 @@ public @interface EnableDynamicLanguage {
 
     /**
      * Alias for the {@link #basePackages()} attribute. Allows for more concise annotation
-     * declarations e.g.: {@code @ComponentScan("cn.islaus")} instead of
-     * {@code @ComponentScan(basePackages="cn.islaus")}.
+     * declarations e.g.: {@code @ComponentScan("com.caiqy")} instead of
+     * {@code @ComponentScan(basePackages="com.caiqy")}.
      *
      * @return the array of 'basePackages'.
      */
